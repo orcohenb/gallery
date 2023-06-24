@@ -1,0 +1,175 @@
+﻿
+body {
+    direction: rtl;
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#logo {
+    display:block;
+}
+
+#container {
+    width: 1280px;
+    margin: 0 auto;
+}
+div .iconChef {
+
+    margin: 20px;
+}
+h1 {
+    margin: 20px;
+}
+div #respece.top-nav {
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:column;
+    align-items:flex-start;
+    margin: 25px;
+
+}
+h2 {
+    margin: 5px;
+    position: absolute;
+    top: 648px;
+    font-size: 30px;
+    left: 247px;
+}
+
+
+#backgroundFooter {
+    background-color: #F4CA8E;
+    margin: 15px;
+    border-radius: 40px;
+
+}
+
+.followUsUp {
+    float: left;
+    align-items: center;
+    color: snow;
+    margin:10px;
+     
+}
+    .followUsUp p {
+        text-indent: 15px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+.backgroud-main {
+    background-image: url('../images/דף ראשי.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.backgroud-header {
+    background-image: url('../images/baking2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+nav ol li {
+    display: inline-block;
+}
+
+nav ol li::after{
+    content: " >";
+}
+
+nav ol li:last-child::after{
+    content:"";
+}
+
+#backgroundFooter ul li a {
+/*    padding: 2px;
+*/    text-decoration:none;
+    color: whitesmoke;
+}
+
+.main-picture {
+    border-radius: 10px;
+    margin: 0px 38px;
+    width: 350px;
+    height: 500px;
+}
+
+.follow {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    
+}
+.logo {
+   width: 200px;
+   height:150px;
+}
+
+h2 {
+    align-content: center;
+    margin: 5px;
+    font-size: 40px;
+}
+h4 {
+    align-content: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+#hit {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+}
+
+/*#howMuch button {
+    margin: 5px;
+    border-radius: 60px;
+    width:70px;
+    font-size:50px;
+    background-color: #F4CA8E;
+}*/
+.howMuchPicture {
+    margin: 15px;
+    border-radius: 60px;
+    width: 110px;
+    background-color: whitesmoke;
+}
+
+#month button {
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+    border-radius: 45px;
+    font-size: 50px;
+    background-color: #F4CA8E;
+    padding: 10px 10px;
+}
+
+footer li {
+    color: whitesmoke;
+    padding: 1px;
+    text-decoration: none;
+   
+}
+#backgroundFooter ul li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+.monthPic {
+    border-radius: 10px;
+    margin: 0px 20px;
+    width: 300px;
+    height: 200px;
+}
+
+.followUs {
+    padding: 10px;
+    margin: 5px;
+}
+
+.hit {
+    padding: 10px;
+    margin: 5px;
+}
+

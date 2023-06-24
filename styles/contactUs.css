@@ -1,0 +1,187 @@
+﻿
+
+body {
+    direction: rtl;
+    width: 100%;
+}
+
+#container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+h1 {
+    display: flex;
+    align-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+    flex-direction:column-reverse;
+}
+#backgroundFooter {
+    background-color: #F4CA8E;
+    margin: 15px;
+    border-radius: 40px;
+
+}
+form {
+    margin: 70px;
+    padding: 10px;
+    right:60px;
+    display:inline-block;
+    position:relative;
+
+}
+
+#textArea {
+    width: 361px;
+    height: 87px;
+}
+
+.followUsUp {
+    float: left;
+    align-items: center;
+    color: snow;
+    margin:10px;
+     
+}
+    .followUsUp p {
+        text-indent: 15px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+.backgroud-main {
+    background-image: url('../images/דף ראשי.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.backgroud-header {
+    background-image: url('../images/baking2.jpg');
+    background-size: 100% 25%;
+    background-repeat: no-repeat;
+}
+
+
+.no-bullet-item {
+    list-style-type: none; /* הסרת הבולטים */
+    padding: 0;
+    margin: 10px;
+}
+
+
+
+
+.main-picture {
+    border-radius: 10px;
+    margin: 0px 38px;
+    width: 350px;
+    height: 500px;
+}
+.follow {
+    width: 150px;
+    height: 70px;
+    display: flex;
+}
+
+
+.logo {
+   width: 200px;
+   height:150px;
+}
+
+nav ol li {
+    display: inline-block;
+}
+
+nav ol li::after{
+    content: " >";
+}
+
+nav ol li:last-child::after{
+    content:"";
+}
+
+h2 {
+    align-content: center;
+    margin: 5px;
+    font-size: 40px;
+}
+
+h4 {
+    position: relative;
+    display: flex;
+   
+}
+label {
+    font-size: 15px;
+    font-weight: bold;
+}
+#send {
+    margin: 25px;
+    border-radius: 60px;
+    width: 160px;
+    height: 45px;
+    background-color: moccasin;
+    font-size: 20px;
+    font-weight: bold;
+}
+#girls {
+    border-radius: 60px;
+    width: 550px;
+    height: 700px;
+    margin: 105px;
+    
+}
+
+
+#hit {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+}
+
+
+.howMuchPicture {
+    margin: 15px;
+    border-radius: 60px;
+    width: 110px;
+    background-color: whitesmoke;
+}
+
+#month button {
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+    border-radius: 45px;
+    font-size: 50px;
+    background-color: #F4CA8E;
+    padding: 10px 10px;
+}
+
+#backgroundFooter ul li {
+
+    color: black; 
+}
+#backgroundFooter ul li a {
+    color: blue;
+    padding: 5px;
+}
+footer li {
+    color: whitesmoke;
+    padding: 1px;
+    text-decoration: none;
+}
+    #backgroundFooter ul li a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+
+.followUs {
+    padding:10px;
+    margin:5px;
+}
+
+.hit {
+    padding: 10px;
+    margin: 5px;
+}
+

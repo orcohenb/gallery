@@ -1,0 +1,240 @@
+﻿body {
+    direction: rtl;
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+h1 {
+    display: flex;
+    align-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+    flex-direction:column-reverse;
+}
+#backgroundFooter {
+    background-color: #F4CA8E;
+    margin: 15px;
+    border-radius: 40px;
+
+}
+
+.imgMenu .imgMenuPic {
+    border-radius: 62px;
+    margin: 5px 38px;
+    width: 400px;
+    height: 220px;
+   
+}
+.imgMenu {
+    display: flex;
+    
+    align-Items: center;
+    justify-Content: center;
+    flex-Wrap: wrap;
+}
+
+    .imgMenu #sabta {
+        border-radius: 62px;
+        margin: 10px 38px;
+        width: 570px;
+        height: 320px;
+    }
+
+nav ol li {
+    display: inline-block;
+}
+
+nav ol li::after{
+    content: " >";
+}
+
+nav ol li:last-child::after{
+    content:"";
+}
+
+footer ul li {
+    color: whitesmoke;
+    padding: 1px;
+    text-decoration: none;
+}
+
+#backgroundFooter ul li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+    form {
+        margin: 70px;
+        padding: 10px;
+        right: 60px;
+        display: inline-block;
+        position: relative;
+    }
+
+#textArea {
+    width: 361px;
+    height: 87px;
+}
+
+.followUsUp {
+    float: left;
+    align-items: center;
+    color: snow;
+    margin:10px;
+     
+}
+    .followUsUp p {
+        text-indent: 15px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+.backgroud-main {
+    background-image: url('../images/דף ראשי.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.backgroud-header {
+    background-image: url('../images/baking2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*nav li a {
+    display: inline-block;
+    float: right;
+    color: #FDFFF3;
+}*/
+
+.nav-link {
+    display: inline-block;
+    float: right;
+    background-color: #2B2C30;
+    color: #FDFFF3;
+    width: 120px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.no-bullet-item {
+    list-style-type: none; /* הסרת הבולטים */
+    padding: 0;
+    margin: 10px;
+}
+
+.top-nav-item {
+    display: inline-block;  
+    position: relative;
+
+}
+
+.top-nav-item-dropdown {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+.top-nav-item:hover .top-nav-item-dropdown {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+
+.top-nav-item-dropdown li a:hover {
+    background-color: burlywood;
+}
+
+
+.top-nav {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.main-picture {
+    border-radius: 10px;
+    margin: 0px 38px;
+    width: 350px;
+    height: 500px;
+}
+.follow {
+    width: 150px;
+    height: 70px;
+    display: flex;
+}
+.video {
+    display: contents;
+}
+
+.logo {
+   width: 200px;
+   height:150px;
+}
+
+h2 {
+    align-content: center;
+    margin: 5px;
+    font-size: 40px;
+}
+
+h4 {
+    position: relative;
+    display: flex;
+   
+}
+label {
+    font-size: 15px;
+    font-weight: bold;
+}
+#send {
+    margin: 25px;
+    border-radius: 60px;
+    width: 160px;
+    height: 45px;
+    background-color: moccasin;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#hit {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+}
+
+footer li {
+    color: whitesmoke;
+    padding: 1px;
+    text-decoration: none;
+   
+}
+#backgroundFooter ul li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+.monthPic {
+    border-radius: 10px;
+    margin: 0px 20px;
+    width: 300px;
+    height: 200px;
+}
+
+.followUs {
+    padding: 10px;
+    margin: 5px;
+}
+
+.hit {
+    padding: 10px;
+    margin: 5px;
+}
+

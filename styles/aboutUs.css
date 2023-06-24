@@ -1,0 +1,249 @@
+﻿body {
+    width: 100%;
+    direction: rtl;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.background-imageAbout {
+    background-size: 100% 100%;
+    background-image: url('../images/תמונה ראשית.jpg');
+    background-repeat: no-repeat;
+}
+
+h1{
+    display:flex;
+    align-content: center;
+    justify-content:center;
+    margin: 5px;
+}
+
+
+#logo {
+    display: block;
+}
+
+#container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+#backgroundFooter {
+    background-color: #F4CA8E;
+    margin: 15px;
+    border-radius: 40px;
+}
+
+.followUsUp {
+    float: left;
+    align-items: center;
+    color: snow;
+    margin: 10px;
+}
+
+    .followUsUp p {
+        text-indent: 15px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+.backgroud-main {
+    background-image: url('../images/דף ראשי.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.backgroud-header {
+    background-image: url('../images/baking2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*nav li a {
+    display: inline-block;
+    float: right;
+    color: #FDFFF3;
+}*/
+
+.nav-link {
+    display: inline-block;
+    float: right;
+    background-color: #2B2C30;
+    color: #FDFFF3;
+    width: 120px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.no-bullet-item {
+    list-style-type: none; /* הסרת הבולטים */
+    padding: 0;
+    margin: 10px;
+}
+
+.top-nav-item {
+    display: inline-block;
+    position: relative;
+}
+
+.top-nav-item-dropdown {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.top-nav-item:hover .top-nav-item-dropdown {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: -10px;
+}
+
+.top-nav-item-dropdown li a:hover {
+    background-color: burlywood;
+}
+
+
+.top-nav {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ol li {
+    display: inline-block;
+}
+
+nav ol li::after{
+    content: " >";
+}
+
+nav ol li:last-child::after{
+    content:"";
+}
+
+#backgroundFooter ul li a {
+    /*    padding: 2px;
+*/ text-decoration: none;
+    color: whitesmoke;
+}
+
+.main-picture {
+    border-radius: 10px;
+    margin: 0px 38px;
+    width: 350px;
+    height: 500px;
+}
+
+.follow {
+    width: 150px;
+    height: 70px;
+    display: flex;
+}
+
+.video {
+    display: contents;
+}
+
+.logo {
+    width: 200px;
+    height: 150px;
+}
+
+h2 {
+    align-content: center;
+    margin: 5px;
+    font-size: 40px;
+}
+
+h4 {
+    align-content: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+#hit {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+}
+
+/*#howMuch button {
+    margin: 5px;
+    border-radius: 60px;
+    width:70px;
+    font-size:50px;
+    background-color: #F4CA8E;
+}*/
+.howMuchPicture {
+    margin: 15px;
+    border-radius: 60px;
+    width: 110px;
+    background-color: whitesmoke;
+}
+
+#month button {
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+    border-radius: 45px;
+    font-size: 50px;
+    background-color: #F4CA8E;
+    padding: 10px 10px;
+}
+
+footer li {
+    color: whitesmoke;
+    padding: 1px;
+    text-decoration: none;
+}
+
+#backgroundFooter ul li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.monthPic {
+    border-radius: 10px;
+    margin: 0px 20px;
+    width: 300px;
+    height: 200px;
+}
+
+.followUs {
+    padding: 10px;
+    margin: 5px;
+}
+
+.hit {
+    padding: 10px;
+    margin: 5px;
+}
+
+.pargrape {
+    display: flex;
+   
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(135, 145, 155);
+    opacity: 90%;
+    flex-wrap: wrap;
+    position: relative;
+    width: 600px;
+    height: 479px;
+    right: 385px;
+    margin: 40px;
+    justify-content:center;
+}
+
+p {
+    color: whitesmoke;
+}
